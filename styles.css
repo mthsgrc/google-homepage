@@ -1,0 +1,164 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	/*vertical-align: baseline;*/
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: arial;
+	/*height: 100%;*/
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS RESET End*/
+
+
+
+nav  {
+	height: 50px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0; 	
+}
+
+nav li {
+	display: inline-block;
+	font-family: arial;
+	font-size: 0.9em;
+	float: right;
+	margin-left: 15px;
+
+}
+
+nav li a {
+	display: block;
+	padding: 3px;
+	text-decoration: none;
+	color: black;
+}
+/*
+.wrapper, .logo, .search {
+	border: 1px solid black;
+}
+*/
+
+.wrapper {
+	margin-top: 15%;
+}
+
+.search-btns {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+
+.logo {
+	/*width: 80%;*/
+	margin: 0 auto;
+	text-align: center;
+}
+
+.search {
+	/*width: 80%;*/
+	margin: 10px auto;
+	display: block;
+	box-shadow: 5px 5px 5px rgba(100,100,100,0.2);
+	border-radius: 2px;
+	padding: 3px 0;
+}
+
+footer {
+	width: 100%;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	/*height: 100%;*/
+	background-color: rgba(100,100,100,0.2);
+	line-height: 35px;
+}
+
+
+.list-left a, .list-right a, p a {
+	text-decoration: none;
+	font-size: 0.9em;
+}
+
+.list-left {
+	border-top: 1px solid rgba(100,100,100,0.2);
+	display: block;
+	width: 50%;
+	position: absolute;
+	left: 0;
+	background-color: rgba(100,100,100,0.2);
+	/*display: inline-block;*/
+}
+
+.list-right {
+	border-top: 1px solid rgba(100,100,100,0.2);
+	display: block;
+	width: 50%;
+	position: absolute;
+	right: 0;
+	background-color: rgba(100,100,100,0.2);
+	/*display: inline-block;*/
+}
+
+.list-right li {
+	float: right;
+	margin-right: 15px;
+	padding: 5px 5px;
+
+}
+.list-left li {
+	margin-left: 15px;
+	padding: 5px 5px;
+
+}
+
+footer p {
+	margin-left: 15px;
+	padding: 5px 5px;
+
+}
+
+footer ul li {
+	display: inline-block;
+}
