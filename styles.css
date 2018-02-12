@@ -51,6 +51,8 @@ table {
 
 nav  {
 	height: 50px;
+	margin-top: 10px;
+	margin-right: 5px;
 }
 
 ul {
@@ -81,7 +83,7 @@ nav li a {
 */
 
 .wrapper {
-	margin-top: 15%;
+	margin-top: 10%;
 	height: 100%;
 }
 
